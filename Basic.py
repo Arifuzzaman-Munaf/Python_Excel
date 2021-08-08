@@ -7,6 +7,7 @@ wb = load_workbook('iris.xlsx')
 
 # loading the active workSheet
 ws = wb.active
+print(ws)
 
 # to get the value of a cell
 print(ws['A1'].value)
